@@ -1,0 +1,1 @@
+This first module code for test angular with tizen appilcation.
