@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app="phonecatApp">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>First Module</title>
-    
-  <body>
-
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/login.css"></link>
+    <script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-ui-router.min.js"></script>
+    <script src="js/app.module.js"></script>
+    <script src="js/login/login.controller.js"></script>
+  </head>
+  <body ng-app="myApp">
     <div class="view-container">
-      <div class="view-frame">First code</div>
-	  <p>tribhuvan</p>
-    </div>
-
+      <div ui-view>First code</div>
+	  </div>
   </body>
 </html>
